@@ -15,8 +15,7 @@ function LogoPage(props) {
     if (newImage) {
       let url = URL.createObjectURL(newImage);
       images.push(url);
-      setlistimage(previmage =>({...previmage , images}));
-      {console.log(listimage);}
+      setlistimage((previmage) => ([...previmage , url]));
       }}
 
 
