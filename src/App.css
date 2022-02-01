@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: "./images/fAEbUH.jpg";
+}
+
+/**********************************************/
+
+form {
+  padding: 15px;
+  border: solid 5px orange;
+  border-radius: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(252, 0, 218) ;
+}
+
+input {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+}
+
+
+#PageLogo {
+  margin-left: 100px;
+}
+
+select {
+  margin: 15px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+  display: none;
+}
+
+
+.custom-file-input::before {
+  content: 'Select some files';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

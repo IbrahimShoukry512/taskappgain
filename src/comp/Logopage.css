@@ -1,0 +1,108 @@
+
+/*  global css */ 
+
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 50px ;
+    border: 3px solid blueviolet;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+nav img {
+    border: 5px solid orange;
+    width: 150px;
+    height: 150px;
+}
+
+nav p {
+    font-size:xx-large;
+    border: solid 3px orange;
+    padding: 5px;
+    border-radius: 20% 40%;
+    background-color: aquamarine;
+}
+
+
+
+/* class style */
+
+.Container {
+    margin: 20px;
+    background-color: #282c34;
+}
+
+
+/* .imagelist {
+    background-color: #2cc545;
+} */
+
+.imagelist ul  {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.imagelist ul li {
+    width: fit-content;
+    list-style: none;
+}
+
+.imagelist ul li:hover {
+    border: 3px solid #282c34;
+    transition: all 1s;
+    border-radius: 30%;
+}
+
+
+.imagelist ul li:focus {
+    border: 2px solid orange;
+}
+
+.imagelist ul li img {
+    width: 300px;
+    height: 300px;
+}
+
+.imagelist ul li img {
+    border-radius: 30%;
+    border: 5px solid orange;
+}
+
+.imagelist article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.imagelist p {
+    margin-right: 30px;
+    width: 30px;
+    font-size:xx-large;
+    border: solid 3px orange;
+    padding: 5px;
+    border-radius: 20% 40%;
+    background-color: aquamarine;
+}
+
+
+button {
+    background-color: aquamarine; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border:2px solid #282c34;
+}
+
+button .custom-file-input {
+    margin: 0px;
+    padding: 0px;
+}
